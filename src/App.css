@@ -1,38 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 .App {
-  text-align: center;
+    min-width: 400px;
+    max-width: 800px;
+    margin: 40px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-name,
+.form-timezone {
+    display: flex;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-form {
+    display: flex;
+    align-items: flex-end;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+    width: 160px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-add {
+    padding: 6px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: #d3d3d3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clock-list {
+    display: flex;
+}
+
+.clock {
+    width: 100px;
+    position: relative;
+    text-align: center;
+    border: solid 1px #000000;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.btn-del {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    font-size: 14px;
+    color: #ff0000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    cursor: pointer;
 }
