@@ -43,7 +43,7 @@ function WatchesForm(props) {
                 />
             </div>
             <div className='form-timezone'>
-                <label htmlFor='Time zone'>
+                <label htmlFor='TimeZone'>
                     Временная зона (UTC)
                 </label>
                 <input
