@@ -7,7 +7,7 @@
 - London,
 - Tokyo.
 
-![Watches](./assets/watches.png)
+![Watches](https://github.com/netology-code/ra16-homeworks/raw/master/lifecycle-http/watches/assets/watches.png)
 
 Общая механика:
 
