@@ -5,9 +5,10 @@
 - New York,
 - Moscow,
 - London,
-- Tokyo.
+- Tokyo,
+- Berlin
 
-![Watches](https://github.com/netology-code/ra16-homeworks/raw/master/lifecycle-http/watches/assets/watches.png)
+![Watches](https://github.com/netology-code/ra16-homeworks/blob/master/lifecycle-http/watches/assets/watches.png)
 
 Общая механика:
 
